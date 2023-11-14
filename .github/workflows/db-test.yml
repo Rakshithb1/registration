@@ -31,8 +31,8 @@ jobs:
     strategy:
       matrix:
         include:
-          - DB_LOCATION: 'db_scripts/mosip_regproc'
-            DB_NAME: 'mosip_regproc'
+          - DB_LOCATION: 'db_scripts/mosip_regprc'
+            DB_NAME: 'mosip_regprc'
       fail-fast: false
     name: ${{ matrix.DB_NAME }}
     uses: mosip/kattu/.github/workflows/db-test.yml@master
