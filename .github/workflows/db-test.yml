@@ -22,7 +22,6 @@ on:
       - 1.*
       - develop*
       - MOSIP*
-      - test
     paths:
       - 'db_scripts/**'
 
